@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=_Logout Now
+Comment=Logout of the session immediately
+Exec=cinnamon-session-quit --logout --no-prompt
+Selection=None
+Extensions=any;
+Icon-Name=system-users-symbolic
+Dependencies=systemctl
+Conditions=desktop;

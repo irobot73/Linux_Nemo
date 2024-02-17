@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Prefix _Parent foldername to sub-files
+Comment=Prefixes the parentname of %F to all sub-files
+Exec=<action_scripts/prefix_parent_foldername.sh %F>
+Icon-Name=document-edit-symbolic
+Selection=s
+Extensions=dir;
+Quote=double
+Dependencies=zenity;wmctrl;convert;identify;

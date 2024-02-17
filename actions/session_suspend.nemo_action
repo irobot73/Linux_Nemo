@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=_Suspend Now
+Comment=Suspend the system
+Exec=systemctl suspend
+Selection=None
+Extensions=any;
+Icon-Name=system-shutdown-symbolic
+Dependencies=systemctl
+Conditions=desktop;

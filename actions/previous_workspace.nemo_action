@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=_Previous Workspace
+Comment=Goto to previous workspace
+Exec=sh -c 'dbus-send --dest=org.Cinnamon --print-reply /org/Cinnamon org.Cinnamon.switchWorkspaceLeft >/dev/null'
+Selection=None
+Extensions=any;
+Icon-Name=go-previous-symbolic
+Dependencies=xdotool;
+Conditions=desktop;
